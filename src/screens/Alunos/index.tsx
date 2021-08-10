@@ -100,11 +100,7 @@ export function Alunos() {
                     />
                 </List.Section> 
             
-        <BottomNavigation
-            navigationState={{ index, routes }}
-            onIndexChange={setIndex}
-            renderScene={renderScene}
-        />
+       
          </View></>
     );
 }

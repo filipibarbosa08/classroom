@@ -101,12 +101,7 @@ export function Atividade() {
                     left={props => <List.Icon {...props} icon="account-circle-outline" />}
                     />
                 </List.Section> 
-            
-        <BottomNavigation
-            navigationState={{ index, routes }}
-            onIndexChange={setIndex}
-            renderScene={renderScene}
-        />
+       
          </View></>
     );
 }

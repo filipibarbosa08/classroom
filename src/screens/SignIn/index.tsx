@@ -23,7 +23,7 @@ export function SignIn() {
                 )} 
                 mode="contained" 
                 onPress={() => console.log('Pressed')}>
-                Sign In with Google
+                Entrar com o Google
             </Button>
         </View>
     );

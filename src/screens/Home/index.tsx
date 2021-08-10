@@ -64,11 +64,7 @@ export function Home() {
                     <Text style={styles.badge}>Turma 4</Text>
                 </Button>
 
-                <BottomNavigation
-                    navigationState={{ index, routes }}
-                    onIndexChange={setIndex}
-                    renderScene={renderScene}
-                />
+               
 
             </View></>
 
